@@ -1,0 +1,39 @@
+@import url('./estilos/reset.css');
+@import url('./estilos/navBar.css');
+@import url('./estilos/notePad.css');
+@import url('./estilos/main.css');
+@import url('./estilos/sobre.css');
+
+
+/*estilo do body*/
+.imagemDeFundo {
+    background-image: url(./img/pexels-codioful-\(formerly-gradienta\)-7135028.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+
+
+
+/*base de dados CSS*/
+:root {
+    /*fontes*/
+    --base-font: 'Montserrat', sans-serif;
+
+    /*cores CSS*/
+    --pri-color: #ffffff;
+    --sec-color: #c2ecff;
+    --ter-color: #000000;
+    --qua-color: #2b2b2b;
+    --color-select: #9237cf;
+    --color-blur-light: rgba(217, 217, 217, 0.80);
+    --box-shadow: 0px 6px 6px 0px rgba(0, 0, 0, 0.35);
+
+    /*propriedades de objetos*/
+    --border-radius: 10px;
+}
+
+.icon__style {
+    color: var(--ter-color);
+}

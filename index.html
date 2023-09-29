@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BitPulse</title>
+    <link rel="shortcut icon" href="./img/bateria.png" type="image/x-icon">
+    <link rel="stylesheet" href="./styles.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+</head>
+
+<body class="imagemDeFundo">
+
+    <header class="navBar">
+
+        <section class="navBar__style">
+            <h1 onclick="alert('Parabéns, você descobriu um easter egg!')" class="navBar__title">BitPulse</h1>
+            <a class="nav__link" href="./about.html">
+                <span class="material-symbols-outlined icon__style">
+                    info
+                </span>
+            </a>
+        </section>
+
+    </header>
+
+    <main class="mainStyle">
+
+        <section class="soundPad">
+
+            <button class="tecla tecla_pom">Pom</button>
+            <button class="tecla tecla_clap">Clap</button>
+            <button class="tecla tecla_tim">Tim</button>
+
+            <button class="tecla tecla_puff">Puff</button>
+            <button class="tecla tecla_splash">Splash</button>
+            <button class="tecla tecla_toim">Toim</button>
+
+            <button class="tecla tecla_psh">Psh</button>
+            <button class="tecla tecla_tic">Tic</button>
+            <button class="tecla tecla_tom">Tom</button>
+
+        </section>
+
+        <audio src="sounds/keyq.wav" id="som_tecla_pom"></audio>
+        <audio src="sounds/keyw.wav" id="som_tecla_clap"></audio>
+        <audio src="sounds/keye.wav" id="som_tecla_tim"></audio>
+        <audio src="sounds/keya.wav" id="som_tecla_puff"></audio>
+        <audio src="sounds/keys.wav" id="som_tecla_splash"></audio>
+        <audio src="sounds/keyd.wav" id="som_tecla_toim"></audio>
+        <audio src="sounds/keyz.wav" id="som_tecla_psh"></audio>
+        <audio src="sounds/keyx.wav" id="som_tecla_tic"></audio>
+        <audio src="sounds/keyc.wav" id="som_tecla_tom"></audio>
+
+    </main>
+
+    <footer></footer>
+
+    <script src="./main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,17 @@
+.nav__link {
+  text-decoration: none;
+  font-family: var(--base-font);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ter-color);
+  padding: 12px;
+  border-radius: var(--border-radius);
+  transition: 0.2s;
+}
+
+
+.nav__link:hover {
+  background-color: var(--pri-color);
+  box-shadow: var(--box-shadow);
+  transition: 0.2s;
+}

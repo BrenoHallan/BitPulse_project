@@ -1,0 +1,40 @@
+.navBar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 75px;
+
+
+  position: fixed;
+  top: 0%;
+  z-index: 2;
+}
+
+.navBar__style {
+  margin: 5px;
+  padding: 15px;
+  width: 800px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: var(--color-blur-light);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  backdrop-filter: blur(5px);
+}
+
+.navBar__title {
+  font-family: var(--base-font);
+  color: var(--ter-color);
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/*Media Screen*/
+@media screen and (max-width: 800px) {
+  .navBar__style {
+    width: 100%;
+  }
+}
